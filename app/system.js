@@ -1,4 +1,4 @@
-import { cloneTemplate } from './app.js';
+import { cloneTemplate } from './global.js';
 import { Race } from './race.js';
 
 export class System {
@@ -96,20 +96,6 @@ export class Planet {
         return Planet.conventions[convention][this[convention]];
     }
 
-    calculateAlottment(market = 'food') {
-        const base = [];
-        const enricher = [];
-        const controller = [];
-        const both = [];
-
-        let resource = this[market];
-
-        while (resource > 0) {
-
-        }
-
-    }
-
     calulateFoodOuput(flat = 1, perCell = 0, percent = 1) {
         const slotValues = [...this.slots.food];
         const slotAssignments = [];
@@ -129,7 +115,6 @@ export class Planet {
 
         return [production, slotAssignments.join(' + ')];
     }
-
 
     buildCard() {
         const listItem = cloneTemplate(Planet.cardTemplate);
@@ -199,17 +184,4 @@ export class Planet {
     appendCard() {
         Planet.cardList.append(this.card)
     }
-
-    print() {
-        console.group(this.name);
-        console.log(Planet.conventions.size[this.size])
-        console.log(this.biome)
-        console.log(Planet.conventions.minerals[this.minerals])
-        console.log(this.specials)
-        console.log(this.slots)
-        console.groupEnd()
-    }
-
-
 }
-
