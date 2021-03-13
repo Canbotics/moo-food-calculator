@@ -1,0 +1,63 @@
+@import 'structure.css';
+@import 'card.css';
+
+:root {
+    --margin-top-components: 5rem;
+    --margin-top-components-nested: 2rem;
+
+    --template-columns-cardlist-planets: 1fr;
+    --grid-gap-cardlist: 1rem;
+
+    --color-biome-gaia: #1EAC1E;
+    --color-biome-prep: #A6A826;
+    --color-biome-uninhabitable: #A32929;
+}
+
+
+
+
+/* EXTRA SMALL */
+@media (max-width: 600px) {
+}
+
+/* SMALL OR SMALLER */
+@media (max-width: 767px) {
+}
+
+/* MEDIUM OR SMALLER */
+@media (max-width: 991px) {
+}
+
+/* LARGE OR SMALLER */
+@media (max-width: 1199px) {
+}
+
+
+/* SMALL OR BIGGER */
+@media (min-width: 601px) {
+    :root {
+        --template-columns-cardlist-planets: repeat(2, 1fr);
+        --grid-gap-cardlist: 2rem 16px;
+    }
+}
+
+/* MEDIUM OR BIGGER */
+@media (min-width: 768px) {
+    :root {
+        --template-columns-cardlist-planets: repeat(3, 1fr);
+    }
+}
+
+/* LARGE OR BIGGER */
+@media (min-width: 992px) {
+    :root {
+        --template-columns-cardlist-planets: repeat(3, 1fr);
+    }
+}
+
+/* EXTRA LARGE OR BIGGER */
+@media (min-width: 1200px) {
+    :root {
+        --template-columns-cardlist-planets: repeat(4, 1fr);
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/styles.css">
+        <script src="app/app.js" type="module" defer></script>
+    </head>
+    <body>
+        <header id="sitehead">
+            <h1>Master of Orion Food Allotment</h1>
+        </header>
+
+        <section id="sitecontent">
+            <section id="planets">
+                <h2>Planets</h2>
+
+                <ul id="planetlist" class="cardlist planets"></ul>
+
+                <template id="planettemplate">
+                    <li>
+                        <article class="card planet">
+                            <h3></h3>
+                            <div class="props">
+                                <span class="size"></span>
+                                <span class="biome"></span>
+                                <span class="minerals"></span>
+                            </div>
+                            <div class="attributes">
+                                <span class="population">Population: </span>
+                                <span class="food">Food required: </span>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Slots</th>
+                                        <th><abbr title="Total">T</abbr></th>
+                                        <th><abbr title="Surplus">S</abbr></th>
+                                        <th><abbr title="Cost">C</abbr></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </article>
+                    </li>
+                </template>
+
+                <template id="slottemplate">
+                    <tr>
+                        <td class="slots"></td>
+                        <td class="total"></td>
+                        <td class="surplus"></td>
+                        <td class="cost"></td>
+                    </tr>
+                </template>
+
+                <template id="bctemplate">
+                    <abbr title="Billion Credits">BC</abbr>
+                </template>
+            </section>
+        </section>
+
+        <footer id="sitefoot">
+            <div id="sitelegal">
+                <small>&copy; Ocicat Media 2021</small>
+                <nav>
+                    <ul>
+                        <li><a href="./" aria-current="page">This page</a></li>
+                        <li><a href="https://github.com/Canbotics/moo-food-calculator" rel="external">Github</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </body>
+</html>
