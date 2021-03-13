@@ -1,6 +1,8 @@
-import { System } from './system.js';
+import { System, Planet } from './system.js';
 
 export function load() {
+    Planet.init();
+    
     loadSystems();
 }
 

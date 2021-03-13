@@ -11,15 +11,22 @@ export class System {
 
         system.planets.forEach((planet) => this.planets.push(new Planet(planet, system)));
 
+        this.sortPlanets();
+
         System.all.push(this);
     }
 
     static init(data) {
-        Planet.init();
-
         data.forEach((system) => new System(system));
 
-        System.list()
+        System.sort();
+        System.list();
+    }
+
+    static sort() {
+        const collator = new Intl.Collator('en', {numeric: true, sensitivity: 'base'});
+
+        System.all.sort((a, b) => collator.compare(a.name, b.name));
     }
 
     static list(uninhabited = false) {
@@ -33,9 +40,13 @@ export class System {
             planets.forEach((planet) => planet.appendCard())
         })
     }
+
+    sortPlanets() {
+        this.planets.sort((a, b) => a.place - b.place)
+    }
 }
 
-class Planet {
+export class Planet {
     static all = [];
 
     static cardList;
