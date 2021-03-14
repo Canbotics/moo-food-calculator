@@ -103,7 +103,7 @@ export class Planet {
         let required = this.food;
         let production = flat;
 
-        while (required > (production * percent)) {
+        while (required > (production * percent) && slotValues.length) {
             const cell = slotValues.shift() + perCell;
 
             slotAssignments.push(cell);
