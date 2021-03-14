@@ -86,11 +86,14 @@
     text-align: right;
 }
 
-.card tbody tr:nth-child(odd) {
-    background-color: rgb(234, 214, 240);
+.card .surplus.zero {
+    color: #A1A1A1;
 }
 
+.card .surplus.negative {
+    color: #CC2A2A;
+}
 
-
-
-
+.card tbody tr:nth-child(odd) {
+    background-color: rgba(234, 214, 240, 0.5);
+}
