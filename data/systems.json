@@ -1,7 +1,7 @@
 [
     {
         "name": "Fieras",
-        "star": "Yellow",
+        "star": "Blue-White",
         "planets": [
             {
                 "place": 0,
@@ -9,6 +9,7 @@
                 "biome": "Asteroid Field",
                 "minerals": 2,
                 "specials": [
+                    "Rare Heavy Metals"
                 ],
                 "population": 0,
                 "slots": {
@@ -20,58 +21,431 @@
             {
                 "place": 1,
                 "biome": "Forest",
-                "size": 4,
-                "minerals": 3,
+                "size": 3,
+                "minerals": 2,
                 "specials": [
-                    "Precious Metals"
+                    "Rare Heavy Metals"
                 ],
                 "population": 24,
                 "slots": {
-                    "science": [5, 5, 5, 4, 4, 0],
-                    "food": [5, 5, 5, 4, 4, 0],
-                    "industry": [5, 5, 5, 4, 4, 0]
+                    "science": [],
+                    "food": [6, 6, 6, 6, 5, 5],
+                    "industry": []
                 }                
             }
         ]
     },
     {
-        "name": "Something Else",
-        "star": "Red",
+        "name": "Saxon",
+        "star": "Blue-White",
         "planets": [
             {
                 "place": 0,
-                "size": 4,
-                "biome": "Arid",
-                "minerals": 0,
+                "size": 2,
+                "biome": "Gaia",
+                "minerals": 2,
                 "specials": [
-                    "Precious Metals"
+                    "Gem"
                 ],
-                "population": 20,
+                "population": 18,
                 "slots": {
-                    "science": [5, 5, 5, 4, 4, 0],
-                    "food": [5, 5, 5, 4, 4, 0],
-                    "industry": [5, 5, 5, 4, 4, 0]
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4, 3, 3],
+                    "industry": []
                 }                
             },
             {
                 "place": 1,
-                "size": 1,
-                "biome": "Desert",
-                "minerals": 3,
+                "size": 2,
+                "biome": "Asteroid Field",
+                "minerals": 2,
                 "specials": [
-                    "Precious Metals"
                 ],
-                "population": 10,
+                "population": 18,
                 "slots": {
-                    "science": [5, 5, 5, 4, 4, 0],
-                    "food": [5, 5, 5, 4, 4, 0],
-                    "industry": [5, 5, 5, 4, 4, 0]
+                    "science": [],
+                    "food": [],
+                    "industry": []
                 }                
             },
             {
                 "place": 2,
+                "size": 1,
+                "biome": "Forest",
+                "minerals": 4,
+                "specials": [
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 3,
+                "size": 4,
+                "biome": "Barren",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 10,
+                "slots": {
+                    "science": [],
+                    "food": [1, 1, 1],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Scaliger",
+        "star": "White",
+        "planets": [
+            {
+                "place": 0,
+                "size": 0,
+                "biome": "Forest",
+                "minerals": 3,
+                "specials": [
+                ],
+                "population": 12,
+                "slots": {
+                    "science": [],
+                    "food": [5, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 4,
+                "biome": "Arid",
+                "minerals": 2,
+                "specials": [
+                    "Natural Wonders"
+                ],
+                "population": 18,
+                "slots": {
+                    "science": [],
+                    "food": [3, 3, 2, 2, 2, 2, 1, 1, 1],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 5,
+                "biome": "Gas Giant",
+                "minerals": 2,
+                "specials": [
+                    "Gold"
+                ],
+                "population": 10,
+                "slots": {
+                    "science": [],
+                    "food": [3, 3, 3, 3],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Ban-El-Akir",
+        "star": "White",
+        "planets": [
+            {
+                "place": 0,
+                "size": 1,
+                "biome": "Forest",
+                "minerals": 3,
+                "specials": [
+                    "Gem"
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 0,
+                "biome": "Barren",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 4,
+                "slots": {
+                    "science": [],
+                    "food": [1],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 3,
+                "biome": "Ocean",
+                "minerals": 3,
+                "specials": [
+                ],
+                "population": 17,
+                "slots": {
+                    "science": [],
+                    "food": [4, 3, 3, 3, 2, 2, 2, 2],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 3,
+                "size": 4,
+                "biome": "Tundra",
+                "minerals": 3,
+                "specials": [
+                    "Natural Wonders"
+                ],
+                "population": 13,
+                "slots": {
+                    "science": [],
+                    "food": [3, 2, 1, 1, 1],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Nordia",
+        "star": "Yellow",
+        "planets": [
+            {
+                "place": 0,
+                "size": 1,
+                "biome": "Forest",
+                "minerals": 4,
+                "specials": [
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 4,
+                "biome": "Asteroid Field",
+                "minerals": 3,
+                "specials": [
+                ],
+                "population": 0,
+                "slots": {
+                    "science": [],
+                    "food": [0],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 0,
+                "biome": "Forest",
+                "minerals": 4,
+                "specials": [
+                    "Prolific Wildlife"
+                ],
+                "population": 15,
+                "slots": {
+                    "science": [],
+                    "food": [5, 4, 4, 4],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Gienaho",
+        "star": "Yellow",
+        "planets": [
+            {
+                "place": 0,
+                "size": 1,
+                "biome": "Radiated",
+                "minerals": 0,
+                "specials": [
+                ],
+                "population": 4,
+                "slots": {
+                    "science": [],
+                    "food": [],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
                 "size": 4,
                 "biome": "Gas Giant",
+                "minerals": 2,
+                "specials": [
+                    "Gold"
+                ],
+                "population": 0,
+                "slots": {
+                    "science": [],
+                    "food": [],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 2,
+                "biome": "Forest",
+                "minerals": 1,
+                "specials": [
+                    "Prolific Wildlife"
+                ],
+                "population": 23,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 4, 4, 4, 4, 3],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 3,
+                "size": 3,
+                "biome": "Swamp",
+                "minerals": 0,
+                "specials": [
+                    "Rare Heavy Metals"
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [3, 3, 3, 2, 2, 2, 2],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Hydrae",
+        "star": "Yellow",
+        "planets": [
+            {
+                "place": 0,
+                "size": 1,
+                "biome": "Forest",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 2,
+                "biome": "Forest",
+                "minerals": 2,
+                "specials": [
+                    "Gem"
+                ],
+                "population": 20,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 4, 4, 4, 4, 3],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 3,
+                "biome": "Forest",
+                "minerals": 1,
+                "specials": [
+                ],
+                "population": 24,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 5, 4, 4, 4, 4, 3, 3],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Reticulli",
+        "star": "Blue-White",
+        "planets": [
+            {
+                "place": 0,
+                "size": 4,
+                "biome": "Asteroid Field",
+                "minerals": 3,
+                "specials": [
+                ],
+                "population": 0,
+                "slots": {
+                    "science": [],
+                    "food": [],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 3,
+                "biome": "Volcanic",
+                "minerals": 3,
+                "specials": [
+                ],
+                "population": 7,
+                "slots": {
+                    "science": [],
+                    "food": [],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 2,
+                "biome": "Forest",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 20,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 4, 4, 4, 4, 3],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Perizoma",
+        "star": "White",
+        "planets": [
+            {
+                "place": 0,
+                "size": 1,
+                "biome": "Forest",
+                "minerals": 4,
+                "specials": [
+                    "Rare Heavy Metals"
+                ],
+                "population": 16,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 4, 4, 4, 4],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 4,
+                "biome": "Asteroid Field",
                 "minerals": 4,
                 "specials": [
                 ],
@@ -79,6 +453,85 @@
                 "slots": {
                     "science": [],
                     "food": [],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 2,
+                "biome": "Forest",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 20,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 4, 4, 4, 4, 3],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 3,
+                "size": 4,
+                "biome": "Barren",
+                "minerals": 2,
+                "specials": [
+                    "Rare Heavy Metals"
+                ],
+                "population": 10,
+                "slots": {
+                    "science": [],
+                    "food": [1, 1, 1],
+                    "industry": []
+                }                
+            }
+        ]
+    },
+    {
+        "name": "Schwan",
+        "star": "Blue-White",
+        "planets": [
+            {
+                "place": 0,
+                "size": 2,
+                "biome": "Forest",
+                "minerals": 2,
+                "specials": [
+                ],
+                "population": 20,
+                "slots": {
+                    "science": [],
+                    "food": [5, 5, 5, 4, 4, 4, 4, 3],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 1,
+                "size": 4,
+                "biome": "Desert",
+                "minerals": 2,
+                "specials": [
+                    "Natural Wonders"
+                ],
+                "population": 14,
+                "slots": {
+                    "science": [],
+                    "food": [3, 3, 2, 2, 1, 1],
+                    "industry": []
+                }                
+            },
+            {
+                "place": 2,
+                "size": 4,
+                "biome": "Barren",
+                "minerals": 4,
+                "specials": [
+                    "Gold"
+                ],
+                "population": 10,
+                "slots": {
+                    "science": [],
+                    "food": [1, 1, 1],
                     "industry": []
                 }                
             }
