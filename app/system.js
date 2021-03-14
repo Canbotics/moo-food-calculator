@@ -57,7 +57,7 @@ export class Planet {
     static conventions = {
         place: ['Prime', 'II', 'III', 'IV', 'V', 'VI'],
         size: ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Giant'],
-        minerals: ['Very Poor', 'Poor', 'Abundant', 'Rich', 'Very Rich'],
+        minerals: ['Ultra-Poor', 'Poor', 'Abundant', 'Rich', 'Ultra-Rich'],
     }
 
     constructor(planet, system) {
