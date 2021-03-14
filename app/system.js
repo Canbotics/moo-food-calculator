@@ -157,6 +157,7 @@ export class Planet {
 
             setups.forEach(([price, setup]) => {
                 const [production, assignments] = this.calulateFoodOuput(...setup);
+                const surplusValue = production - this.food
 
                 const row = cloneTemplate(Planet.slotTemplate);
 
@@ -167,14 +168,17 @@ export class Planet {
 
                 slots.textContent = assignments;
                 total.textContent = production;
-                surplus.textContent = production - this.food;
+                surplus.textContent = surplusValue;
                 cost.textContent = price;
-                cost.append(cloneTemplate(Planet.bcTemplate))
+                cost.append(cloneTemplate(Planet.bcTemplate));
 
-                console.log(list)
+                if (surplusValue === 0) {
+                    surplus.classList.add('zero');
+                } else if (surplusValue < 0) {
+                    surplus.classList.add('negative')
+                }
+
                 list.append(row)
-
-                console.log(cost + 'BC;', total + ' food;', slots)
             });
         }
 
