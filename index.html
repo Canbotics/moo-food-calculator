@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Automatically calculates the population distribution to provide food in Master of Orion: Conquer the Stars.">
+
+        <title>Master of Orion Food Allotment</title>
+
         <link rel="stylesheet" href="assets/styles.css">
         <script src="app/app.js" type="module" defer></script>
     </head>
@@ -32,9 +38,9 @@
                                 <thead>
                                     <tr>
                                         <th>Slots</th>
-                                        <th><abbr title="Total">T</abbr></th>
-                                        <th><abbr title="Surplus">S</abbr></th>
-                                        <th><abbr title="Cost">C</abbr></th>
+                                        <th><abbr title="Total" aria-label="Total">T</abbr></th>
+                                        <th><abbr title="Surplus" aria-label="Surplus">S</abbr></th>
+                                        <th><abbr title="Cost" aria-label="Cost">C</abbr></th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
@@ -53,7 +59,7 @@
                 </template>
 
                 <template id="bctemplate">
-                    <abbr title="Billion Credits">BC</abbr>
+                    <abbr title="Billion Credits" aria-label="Billion Credits">BC</abbr>
                 </template>
             </section>
         </section>
