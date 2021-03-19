@@ -4,7 +4,7 @@
         "star": "Blue-White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 4,
                 "biome": "Asteroid Field",
                 "minerals": 2,
@@ -19,7 +19,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "biome": "Forest",
                 "size": 3,
                 "minerals": 2,
@@ -40,7 +40,7 @@
         "star": "Blue-White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 2,
                 "biome": "Gaia",
                 "minerals": 2,
@@ -55,7 +55,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 2,
                 "biome": "Asteroid Field",
                 "minerals": 2,
@@ -69,7 +69,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 1,
                 "biome": "Forest",
                 "minerals": 4,
@@ -83,7 +83,7 @@
                 }                
             },
             {
-                "place": 3,
+                "position": 3,
                 "size": 4,
                 "biome": "Barren",
                 "minerals": 2,
@@ -103,7 +103,7 @@
         "star": "White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 0,
                 "biome": "Forest",
                 "minerals": 3,
@@ -117,7 +117,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 4,
                 "biome": "Arid",
                 "minerals": 2,
@@ -132,7 +132,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 5,
                 "biome": "Gas Giant",
                 "minerals": 2,
@@ -153,7 +153,7 @@
         "star": "White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 1,
                 "biome": "Forest",
                 "minerals": 3,
@@ -168,7 +168,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 0,
                 "biome": "Barren",
                 "minerals": 2,
@@ -182,7 +182,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 3,
                 "biome": "Ocean",
                 "minerals": 3,
@@ -196,7 +196,7 @@
                 }                
             },
             {
-                "place": 3,
+                "position": 3,
                 "size": 4,
                 "biome": "Tundra",
                 "minerals": 3,
@@ -217,7 +217,7 @@
         "star": "Yellow",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 1,
                 "biome": "Forest",
                 "minerals": 4,
@@ -231,7 +231,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 4,
                 "biome": "Asteroid Field",
                 "minerals": 3,
@@ -245,7 +245,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 0,
                 "biome": "Forest",
                 "minerals": 4,
@@ -266,7 +266,7 @@
         "star": "Yellow",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 1,
                 "biome": "Radiated",
                 "minerals": 0,
@@ -280,7 +280,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 4,
                 "biome": "Gas Giant",
                 "minerals": 2,
@@ -295,7 +295,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 2,
                 "biome": "Forest",
                 "minerals": 1,
@@ -310,7 +310,7 @@
                 }                
             },
             {
-                "place": 3,
+                "position": 3,
                 "size": 3,
                 "biome": "Swamp",
                 "minerals": 0,
@@ -331,7 +331,7 @@
         "star": "Yellow",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 1,
                 "biome": "Forest",
                 "minerals": 2,
@@ -345,7 +345,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 2,
                 "biome": "Forest",
                 "minerals": 2,
@@ -360,7 +360,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 3,
                 "biome": "Forest",
                 "minerals": 1,
@@ -380,7 +380,7 @@
         "star": "Blue-White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 4,
                 "biome": "Asteroid Field",
                 "minerals": 3,
@@ -394,7 +394,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 3,
                 "biome": "Volcanic",
                 "minerals": 3,
@@ -408,7 +408,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 2,
                 "biome": "Forest",
                 "minerals": 2,
@@ -428,7 +428,7 @@
         "star": "White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 1,
                 "biome": "Forest",
                 "minerals": 4,
@@ -443,7 +443,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 4,
                 "biome": "Asteroid Field",
                 "minerals": 4,
@@ -457,7 +457,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 2,
                 "biome": "Forest",
                 "minerals": 2,
@@ -471,7 +471,7 @@
                 }                
             },
             {
-                "place": 3,
+                "position": 3,
                 "size": 4,
                 "biome": "Barren",
                 "minerals": 2,
@@ -492,7 +492,7 @@
         "star": "Blue-White",
         "planets": [
             {
-                "place": 0,
+                "position": 0,
                 "size": 2,
                 "biome": "Forest",
                 "minerals": 2,
@@ -506,7 +506,7 @@
                 }                
             },
             {
-                "place": 1,
+                "position": 1,
                 "size": 4,
                 "biome": "Desert",
                 "minerals": 2,
@@ -521,7 +521,7 @@
                 }                
             },
             {
-                "place": 2,
+                "position": 2,
                 "size": 4,
                 "biome": "Barren",
                 "minerals": 4,

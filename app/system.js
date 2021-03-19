@@ -1,5 +1,6 @@
 import { cloneTemplate } from './global.js';
 import { Race } from './race.js';
+import { Position, Size, Mineral } from './convention.js';
 
 export class System {
     static all = [];
@@ -42,7 +43,7 @@ export class System {
     }
 
     sortPlanets() {
-        this.planets.sort((a, b) => a.place - b.place)
+        this.planets.sort((a, b) => a.position - b.position)
     }
 }
 
@@ -54,25 +55,19 @@ export class Planet {
     static slotTemplate;
     static bcTemplate;
     
-    static conventions = {
-        place: ['Prime', 'II', 'III', 'IV', 'V', 'VI'],
-        size: ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Giant'],
-        minerals: ['Ultra-Poor', 'Poor', 'Abundant', 'Rich', 'Ultra-Rich'],
-    }
-
     constructor(planet, system) {
-        this.place = planet.place;
+        this.position = Position.getByIndex(planet.position);
 
-        this.size = planet.size;
+        this.size = Size.getByIndex(planet.size);
         this.biome = planet.biome;
-        this.minerals = planet.minerals;
+        this.mineral = Mineral.getByIndex(planet.minerals);
 
         this.specials = planet.specials;
 
         this.population = planet.population;
         this.food = this.population * Race.foodModifier;
 
-        this.name = system.name + ' ' + this.returnConvention('place');
+        this.name = system.name + ' ' + this.position.label;
 
         this.gaia = (this.biome === 'Gaia' || this.biome === Race.uberPlanet);
         this.prep = (this.biome === 'Terran' || this.biome === Race.uberPrep);
@@ -90,10 +85,6 @@ export class Planet {
         Planet.cardTemplate = document.getElementById('planettemplate');
         Planet.slotTemplate = document.getElementById('slottemplate');
         Planet.bcTemplate = document.getElementById('bctemplate');
-    }
-
-    returnConvention(convention) {
-        return Planet.conventions[convention][this[convention]];
     }
 
     calulateFoodOuput(flat = 1, perCell = 0, percent = 1) {
@@ -131,9 +122,9 @@ export class Planet {
         const list = table.querySelector('tbody');
 
         title.textContent = this.name;
-        size.textContent = this.returnConvention('size');
+        size.textContent = this.size.label//('size');
         biome.textContent = this.biome;
-        minerals.textContent = this.returnConvention('minerals');
+        minerals.textContent = this.mineral.label//('minerals');
         population.textContent += this.population;
         food.textContent += this.food;
 
