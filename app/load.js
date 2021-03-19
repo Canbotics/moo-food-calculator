@@ -1,27 +1,28 @@
 import { System, Planet } from './system.js';
 
-export function load() {
-    Planet.init();
-    
-    loadSystems();
-}
+export class Load {
+    static init() {
+        Planet.init();
 
-function loadSystems() {
-    const httpRequest = new XMLHttpRequest();
-
-    httpRequest.onreadystatechange = function() {
-        if (httpRequest.readyState === XMLHttpRequest.DONE) {
-            if (httpRequest.status === 200) {
-                System.init(JSON.parse(httpRequest.responseText));
-            } else {
-                console.error('Failed to load');
-
-                return false;
-            }
-        } 
+        Load.connect('/data/systems.json', System.init);
     }
 
-    httpRequest.open('GET', '/data/systems.json');
-    httpRequest.send();
-}
+    static connect(url, func) {
+        const httpRequest = new XMLHttpRequest();
 
+        httpRequest.onreadystatechange = function() {
+            if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                if (httpRequest.status === 200) {
+                    func(JSON.parse(httpRequest.responseText));
+                } else {
+                    console.error('Failed to load');
+    
+                    return false;
+                }
+            } 
+        }
+        
+        httpRequest.open('GET', url);
+        httpRequest.send();    
+    }
+} 

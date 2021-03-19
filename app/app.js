@@ -1,5 +1,5 @@
-import { load } from './load.js';
+import { Load } from './load.js';
 
 document.addEventListener("DOMContentLoaded", function () {
-    load();
+    Load.init();
 });
