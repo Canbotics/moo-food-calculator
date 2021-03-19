@@ -1,0 +1,34 @@
+[
+    {
+        "type": "position",
+        "labels": [
+            "Prime",
+            "II",
+            "III",
+            "IV",
+            "V",
+            "VI"
+        ]
+    },
+    {
+        "type": "size",
+        "labels": [
+            "Tiny",
+            "Small",
+            "Medium",
+            "Large",
+            "Huge",
+            "Giant"
+        ]
+    },
+    {
+        "type": "mineral",
+        "labels": [
+            "Ultra-Poor",
+            "Poor",
+            "Abundant",
+            "Rich",
+            "Ultra-Rich"
+        ]
+    }
+]
