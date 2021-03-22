@@ -52,7 +52,7 @@ export class Planet {
 
     static cardList;
     static cardTemplate;
-    static slotTemplate;
+    static cellTemplate;
     static bcTemplate;
     
     constructor(planet, system) {
@@ -73,7 +73,7 @@ export class Planet {
         this.prep = (this.biome === 'Terran' || this.biome === Race.uberPrep);
         this.uninhabitable = (this.biome === 'Asteroid Field' || this.biome === 'Gas Giant');
         
-        this.slots = planet.slots;
+        this.cells = planet.cells;
 
         this.buildCard();
 
@@ -83,28 +83,28 @@ export class Planet {
     static init() {
         Planet.cardList = document.getElementById('planetlist');
         Planet.cardTemplate = document.getElementById('planettemplate');
-        Planet.slotTemplate = document.getElementById('slottemplate');
+        Planet.cellTemplate = document.getElementById('celltemplate');
         Planet.bcTemplate = document.getElementById('bctemplate');
     }
 
     calulateFoodOuput(flat = 1, perCell = 0, percent = 1) {
-        const slotValues = [...this.slots.food];
-        const slotAssignments = [];
+        const cellValues = [...this.cells.food];
+        const cellAssignments = [];
 
         let required = this.food;
         let production = flat;
 
-        while (required > (production * percent) && slotValues.length) {
-            const cell = slotValues.shift() + perCell;
+        while (required > (production * percent) && cellValues.length) {
+            const cell = cellValues.shift() + perCell;
 
-            slotAssignments.push(cell);
+            cellAssignments.push(cell);
 
             production += cell;           
         }
 
         production *= percent;
 
-        return [production, slotAssignments.join(' + ')];
+        return [production, cellAssignments.join(' + ')];
     }
 
     buildCard() {
@@ -150,14 +150,14 @@ export class Planet {
                 const [production, assignments] = this.calulateFoodOuput(...setup);
                 const surplusValue = production - this.food
 
-                const row = cloneTemplate(Planet.slotTemplate);
+                const row = cloneTemplate(Planet.cellTemplate);
 
-                const slots = row.querySelector('.slots');
+                const cells = row.querySelector('.cells');
                 const total = row.querySelector('.total');
                 const surplus = row.querySelector('.surplus');
                 const cost = row.querySelector('.cost');
 
-                slots.textContent = assignments;
+                cells.textContent = assignments;
                 total.textContent = production;
                 surplus.textContent = surplusValue;
                 cost.textContent = price;
