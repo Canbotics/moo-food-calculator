@@ -12,7 +12,7 @@
                     "Rare Heavy Metals"
                 ],
                 "population": 0,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -27,7 +27,7 @@
                     "Rare Heavy Metals"
                 ],
                 "population": 24,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [6, 6, 6, 6, 5, 5],
                     "industry": []
@@ -48,7 +48,7 @@
                     "Gem"
                 ],
                 "population": 18,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4, 3, 3],
                     "industry": []
@@ -62,7 +62,7 @@
                 "specials": [
                 ],
                 "population": 18,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -76,7 +76,7 @@
                 "specials": [
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4],
                     "industry": []
@@ -90,7 +90,7 @@
                 "specials": [
                 ],
                 "population": 10,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [1, 1, 1],
                     "industry": []
@@ -110,7 +110,7 @@
                 "specials": [
                 ],
                 "population": 12,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 4, 4, 4],
                     "industry": []
@@ -125,7 +125,7 @@
                     "Natural Wonders"
                 ],
                 "population": 18,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [3, 3, 2, 2, 2, 2, 1, 1, 1],
                     "industry": []
@@ -140,7 +140,7 @@
                     "Gold"
                 ],
                 "population": 10,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [3, 3, 3, 3],
                     "industry": []
@@ -161,7 +161,7 @@
                     "Gem"
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4],
                     "industry": []
@@ -175,7 +175,7 @@
                 "specials": [
                 ],
                 "population": 4,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [1],
                     "industry": []
@@ -189,7 +189,7 @@
                 "specials": [
                 ],
                 "population": 17,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [4, 3, 3, 3, 2, 2, 2, 2],
                     "industry": []
@@ -204,7 +204,7 @@
                     "Natural Wonders"
                 ],
                 "population": 13,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [3, 2, 1, 1, 1],
                     "industry": []
@@ -224,7 +224,7 @@
                 "specials": [
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4],
                     "industry": []
@@ -238,7 +238,7 @@
                 "specials": [
                 ],
                 "population": 0,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [0],
                     "industry": []
@@ -253,7 +253,7 @@
                     "Prolific Wildlife"
                 ],
                 "population": 15,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 4, 4, 4],
                     "industry": []
@@ -273,7 +273,7 @@
                 "specials": [
                 ],
                 "population": 4,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -288,7 +288,7 @@
                     "Gold"
                 ],
                 "population": 0,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -303,7 +303,7 @@
                     "Prolific Wildlife"
                 ],
                 "population": 23,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 4, 4, 4, 4, 3],
                     "industry": []
@@ -318,7 +318,7 @@
                     "Rare Heavy Metals"
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [3, 3, 3, 2, 2, 2, 2],
                     "industry": []
@@ -338,7 +338,7 @@
                 "specials": [
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4],
                     "industry": []
@@ -353,7 +353,7 @@
                     "Gem"
                 ],
                 "population": 20,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 4, 4, 4, 4, 3],
                     "industry": []
@@ -367,7 +367,7 @@
                 "specials": [
                 ],
                 "population": 24,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 5, 4, 4, 4, 4, 3, 3],
                     "industry": []
@@ -387,7 +387,7 @@
                 "specials": [
                 ],
                 "population": 0,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -401,7 +401,7 @@
                 "specials": [
                 ],
                 "population": 7,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -415,7 +415,7 @@
                 "specials": [
                 ],
                 "population": 20,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 4, 4, 4, 4, 3],
                     "industry": []
@@ -436,7 +436,7 @@
                     "Rare Heavy Metals"
                 ],
                 "population": 16,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 4, 4, 4, 4],
                     "industry": []
@@ -450,7 +450,7 @@
                 "specials": [
                 ],
                 "population": 0,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [],
                     "industry": []
@@ -464,7 +464,7 @@
                 "specials": [
                 ],
                 "population": 20,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 4, 4, 4, 4, 3],
                     "industry": []
@@ -479,7 +479,7 @@
                     "Rare Heavy Metals"
                 ],
                 "population": 10,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [1, 1, 1],
                     "industry": []
@@ -499,7 +499,7 @@
                 "specials": [
                 ],
                 "population": 20,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [5, 5, 5, 4, 4, 4, 4, 3],
                     "industry": []
@@ -514,7 +514,7 @@
                     "Natural Wonders"
                 ],
                 "population": 14,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [3, 3, 2, 2, 1, 1],
                     "industry": []
@@ -529,7 +529,7 @@
                     "Gold"
                 ],
                 "population": 10,
-                "slots": {
+                "cells": {
                     "science": [],
                     "food": [1, 1, 1],
                     "industry": []
