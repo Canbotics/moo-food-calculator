@@ -38,9 +38,9 @@
                                 <thead>
                                     <tr>
                                         <th>Cells</th>
-                                        <th><abbr title="Total" aria-label="Total">T</abbr></th>
-                                        <th><abbr title="Surplus" aria-label="Surplus">S</abbr></th>
-                                        <th><abbr title="Cost" aria-label="Cost">C</abbr></th>
+                                        <th aria-label="Total"><abbr title="Total" aria-hidden="true">T</abbr></th>
+                                        <th aria-label="Surplus"><abbr title="Surplus" aria-hidden="true">S</abbr></th>
+                                        <th aria-label="Cost"><abbr title="Cost" aria-hidden="true">C</abbr></th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
@@ -59,7 +59,9 @@
                 </template>
 
                 <template id="bctemplate">
-                    <abbr title="Billion Credits" aria-label="Billion Credits">BC</abbr>
+                    <abbr title="Billion Credits" aria-label="Billion Credits">
+                        <span aria-hidden="true">BC</span>
+                    </abbr>
                 </template>
             </section>
         </section>
